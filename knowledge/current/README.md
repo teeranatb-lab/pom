@@ -2,7 +2,7 @@
 ผู้ริเริ่มแนวคิด: ธีรนาท บุตรดา (Teeranat Butda)
 วันที่รวบรวม: 8 พฤศจิกายน 2569
 
-ชุดนี้รวบรวมองค์ความรู้ 11 หัวข้อจากแหล่งที่ตรวจอ่านได้ ไม่ใช่การรับรองว่าครอบคลุมบทสนทนาทั้งหมด และยังไม่ใช่การแก้ Canonical ต้นฉบับ
+ชุดนี้มีภาพรวม 11 หัวข้อ และโมดูลรายละเอียดเพิ่มเติมจากแหล่งที่ตรวจอ่านได้ ไม่ใช่การรับรองว่าครอบคลุมบทสนทนาทั้งหมด และยังไม่ใช่การแก้ Canonical ต้นฉบับ
 
 ## เนื้อหา
 - [Meaning Space และการใช้เส้นทางเดิม](01-meaning-space.md)
@@ -17,6 +17,14 @@
 - [Surface TIN และข้อมูลภูมิประเทศ](09-surface-tin.md)
 - [OCR ใบอนุญาตและการเชื่อมแผนที่](10-permit-ocr.md)
 - [เปรียบเทียบวิธีคิด 18 รูปแบบและ 18 Way Matrix](11-reasoning-methods-comparison.md)
+
+## Meaning Space และ Semantic ฉบับรายละเอียด
+- [Meaning Space และหน่วยความหมายในโครงสร้าง](semantic/meaning-space-structure.md)
+- [Semantic Relations และที่อยู่ของความหมาย](semantic/semantic-relations-and-addresses.md)
+- [แยกการนำเข้าความรู้จากการค้นคืน](semantic/semantic-ingestion-and-retrieval.md)
+- [Intent Resonance และการคัดเส้นทาง](semantic/intent-resonance-and-ranking.md)
+- [Semantic Gap และการค้นหาวิธีตามเงื่อนไข](semantic/semantic-gap-and-method-search.md)
+- [การนำทางความหมายและข้อจำกัดของภาพฉาย](semantic/semantic-navigation-and-projection.md)
 
 ## ขอบเขตการรวบรวม
 ตรวจบทสนทนาและเอกสารอ้างอิงที่ค้นคืนได้ถึงวันที่รวบรวม รวมทั้งแยกชุดวิธีคิด 18 รูปแบบจาก Matrix ที่ใช้ชื่อคล้ายกัน การค้นคืนไม่ได้ให้ประวัติทั้งหมดเป็นชุดที่ครบถ้วน จึงยังไม่รับรองว่าไม่มีหัวข้ออื่นตกหล่น บางเนื้อหาถูกละไว้ในต้นทาง และไม่มีผลตรวจ Runtime ใหม่ในการรวบรวมนี้
