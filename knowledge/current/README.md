@@ -26,6 +26,20 @@
 - [Semantic Gap และการค้นหาวิธีตามเงื่อนไข](semantic/semantic-gap-and-method-search.md)
 - [การนำทางความหมายและข้อจำกัดของภาพฉาย](semantic/semantic-navigation-and-projection.md)
 
+## Runtime และงาน GIS ฉบับรายละเอียด
+- [การวาดขอบเขตด้วย Snap Preview และค่าระยะมุม](gis/survey-cad-snap-capture.md)
+- [การเลือกวัตถุและแผงคุณสมบัติบนแผนที่มือถือ](gis/mobile-map-selection-ux.md)
+- [การอนุมานท้องน้ำจากภาพโดยรักษาหลักฐานสำรวจ](gis/image-bathymetry-evidence.md)
+- [สัญญาผลลัพธ์ CAD และ CSV ก่อนส่งออก](gis/cad-csv-preview-contract.md)
+- [GEN MAP จากภาพดาวเทียมสู่แผนที่สังเขป](gis/gen-map-semantic-redraw.md)
+- [Runtime อิสระ และขอบเขต Model / Tool Gateway](architecture/runtime-model-tool-boundaries.md)
+- [Semantic Verification: สัญญาความหมายระหว่างเจตนา แผน และผลจริง](architecture/semantic-verification-contracts.md)
+- [Checkpoint และ Provenance: ตรวจเส้นทางงานจากหลักฐาน](architecture/checkpoint-provenance.md)
+- [สืบทอดเจตนาและสถานะ: ใช้ของเดิมโดยไม่ให้ของเก่าทับคำแก้ล่าสุด](architecture/intent-inheritance-current-state.md)
+- [Experience Memory: จากการทำซ้ำสู่ความรู้ที่ตรวจและใช้ต่อได้](architecture/experience-learning-verification.md)
+
+**ขนาดชุดปัจจุบัน:** 28 ไฟล์ Markdown ได้แก่ สารบัญ 1 ไฟล์ ภาพรวม 11 หัวข้อ และโมดูลรายละเอียด 16 หัวข้อ จำนวนไฟล์เป็นการจัดเอกสาร ไม่ใช่จำนวนองค์ความรู้ทั้งหมดที่มี
+
 ## ขอบเขตการรวบรวม
 ตรวจบทสนทนาและเอกสารอ้างอิงที่ค้นคืนได้ถึงวันที่รวบรวม รวมทั้งแยกชุดวิธีคิด 18 รูปแบบจาก Matrix ที่ใช้ชื่อคล้ายกัน การค้นคืนไม่ได้ให้ประวัติทั้งหมดเป็นชุดที่ครบถ้วน จึงยังไม่รับรองว่าไม่มีหัวข้ออื่นตกหล่น บางเนื้อหาถูกละไว้ในต้นทาง และไม่มีผลตรวจ Runtime ใหม่ในการรวบรวมนี้
 
