@@ -1,0 +1,47 @@
+{
+  "release": "0.11.0",
+  "policy_id": "OLGM-VG-01/1.0",
+  "origin_email": "teeranat.b@gmail.com",
+  "strict_threshold_thb": "1000000",
+  "status": "CODE_LEVEL_VERIFIED_NOT_PRODUCTION_CERTIFIED",
+  "s10_gate_id": "S10-21",
+  "s10_release_status": "NOT_PASSED",
+  "test_runs": [
+    {
+      "command": "python -m pytest -q -ra --ignore=tests/test_g06_source_improve.py",
+      "passed": 211,
+      "skipped": 2,
+      "failed": 0,
+      "proof_file": "docs/VALUE_GUARD_NON_G06_TEST_LOG_V11.txt"
+    },
+    {
+      "command": "python -m pytest -q tests/test_g06_source_improve.py",
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0,
+      "proof_file": "docs/VALUE_GUARD_G06_TEST_LOG_V11.txt"
+    }
+  ],
+  "aggregate": {
+    "passed": 213,
+    "skipped": 2,
+    "failed": 0
+  },
+  "validation": {
+    "owner_address_corrected": true,
+    "strictly_gt_1m": true,
+    "owner_first_email_queue": true,
+    "no_user_notice_before_owner_delivery": true,
+    "mock_email_delivery": true,
+    "real_email_delivery": "NOT_TESTED",
+    "confirmed_exemption_requires_origin_signed_receipt": true,
+    "no_auto_assessment_from_arbitrary_answer": "NOT_IMPLEMENTED",
+    "identity_consent_is_upstream_provided_not_independently_verified": true,
+    "full_production_identity": "NOT_TESTED",
+    "independent_financial_valuation": "NOT_TESTED",
+    "privacy_lawful_basis": "NOT_TESTED",
+    "real_operational_UI_notification": "NOT_IMPLEMENTED",
+    "origin_private_data": "NOT_INCLUDED",
+    "original_canonical_and_archive": "UNMODIFIED_BY_THIS_PACKAGE"
+  }
+}

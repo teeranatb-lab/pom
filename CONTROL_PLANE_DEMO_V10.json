@@ -1,0 +1,32 @@
+{
+  "scenario": "LOCAL_SIMULATED_CONNECTORS_NO_REAL_CONTROL",
+  "declared_resources": 4,
+  "proposal": "PENDING_APPROVAL",
+  "approval": "APPROVED",
+  "queue": "QUEUED",
+  "execution": {
+    "status": "COMPLETED",
+    "plan_id": "f18e0863-8d2d-4872-9192-5cfa1e20651d",
+    "result": {
+      "status": "EXECUTED",
+      "gaps": [
+        {
+          "resource_id": "computer.xadmin-v1",
+          "state": "OFFLINE"
+        },
+        {
+          "resource_id": "plugin.demo-v1",
+          "state": "NOT_CONNECTED"
+        },
+        {
+          "resource_id": "space.demo-v1",
+          "state": "NOT_CONNECTED"
+        }
+      ],
+      "count": 3
+    }
+  },
+  "audit_verified": true,
+  "audit_detail": "OK (5 records; 0 local anchors)",
+  "s10": "NOT_PASSED"
+}

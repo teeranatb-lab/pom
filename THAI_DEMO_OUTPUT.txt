@@ -1,0 +1,41 @@
+{
+  "scope": "LOCAL_DEMONSTRATION_WITH_SYNTHETIC_TEST_ORIGIN",
+  "real_origin_identity_proved": false,
+  "canonical_modified": false,
+  "live_model_used": false,
+  "network_used": false,
+  "source_license": "synthetic-test-license",
+  "pattern_catalog": {
+    "intent_patterns": 72,
+    "thai_and_english_triggers": 263,
+    "groups": {
+      "conversation": 4,
+      "language": 8,
+      "reasoning": 8,
+      "math": 4,
+      "coding": 11,
+      "sovereignty": 12,
+      "procurement": 8,
+      "gis": 5,
+      "documents": 3,
+      "research": 2,
+      "security": 4,
+      "operations": 3
+    },
+    "scope": "rule_pattern_recognition_not_language_model"
+  },
+  "learning_before": "INSUFFICIENT",
+  "candidate_not_served_before_approval": true,
+  "example_approval": "APPROVED_LOCAL_ORIGIN_KEY",
+  "learning_after": "ANSWER_FROM_APPROVED_EXAMPLE",
+  "learned_answer_th": "ระบบทดสอบนี้เก็บตัวอย่างพร้อมที่มาและการอนุมัติเฉพาะที่",
+  "lexicon_approval": "APPROVED_LINK",
+  "lexicon_response": "ธาราทดสอบ เชื่อมกับแก่น น้ำ: ของเหลว",
+  "lexicon_original_cid_unchanged": true,
+  "generated_code_pattern": "pipeline:unique>>sort",
+  "generated_code_sha256": "4437544960e88fe13d583a95aef0a7abe9729956a83eda4a1ac223a20755b2c8",
+  "generated_output_class": "CANDIDATE_NOT_PRODUCTION",
+  "audit_verified": true,
+  "audit_detail": "OK (4 records; 0 local anchors)",
+  "release": "NOT_S10_PASSED"
+}

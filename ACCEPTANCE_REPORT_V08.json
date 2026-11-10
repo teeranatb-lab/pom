@@ -1,0 +1,52 @@
+{
+  "project": "OLGM Ultimate Sovereign Thai v0.8.0",
+  "status": "CODE_LEVEL_VERIFIED_NOT_PRODUCTION",
+  "scope": [
+    "72 Thai intent patterns",
+    "263 triggers",
+    "Thai approved-example learning",
+    "signed Origin-authority key controls",
+    "Meaning Space CID-preserving lexicon",
+    "37 Python reviewed blueprints",
+    "21 typed composition patterns",
+    "bounded integer program synthesis",
+    "integrated thai-run with 16 checkpoint stages",
+    "S10 gates extended to 20"
+  ],
+  "test_result": {
+    "passed": 156,
+    "skipped": 2,
+    "failed": 0,
+    "errors": 0,
+    "returncode": 0
+  },
+  "local_source_capture": "docs/TEST_CAPTURE.json",
+  "curated_thai_benchmark": {
+    "cases": 42,
+    "top1_correct": 42,
+    "benchmark_type": "DEVELOPER_CURATED_NOT_INDEPENDENT"
+  },
+  "demo": {
+    "approved_sample": "APPROVED_LOCAL_ORIGIN_KEY",
+    "original_cid_unchanged": true,
+    "audit_verified": true,
+    "synthetic_test_key_only": true
+  },
+  "s10": {
+    "overall": "NOT_PASSED",
+    "required": 20,
+    "blocked": 20,
+    "release_authorized": false
+  },
+  "limitations": [
+    "No independently authenticated real Origin",
+    "No production deployment to X-Comp/athena-30.com",
+    "No live T06 model verification",
+    "No T17 real-weight learning",
+    "No independent blind Thai benchmark",
+    "No novel open-domain code-generation guarantee",
+    "No independently anchored tamper-proof database"
+  ],
+  "origin_or_canonical_modified": false,
+  "model_called_during_tests": false
+}

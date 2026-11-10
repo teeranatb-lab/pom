@@ -1,0 +1,7 @@
+...............ss....................................................... [ 33%]
+........................................................................ [ 67%]
+.....................................................................    [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_acceptance_t06_t31.py:192: T06 live requires configured model, model-side evidence and runtime invocation
+SKIPPED [1] tests/test_acceptance_t06_t31.py:197: T17 weight training requires real before/after checkpoints and independent eval
+211 passed, 2 skipped in 12.33s

@@ -1,0 +1,9 @@
+{
+  "evaluation_type": "CURATED_DEVELOPER_REGRESSION_NOT_BLIND",
+  "cases": 42,
+  "top1_correct": 42,
+  "top3_correct": 42,
+  "top1_rate": 1.0,
+  "top3_rate": 1.0,
+  "claim": "This metric is only for manually selected phrases, not general Thai understanding."
+}

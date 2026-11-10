@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "passed": 156,
+  "failed": 0,
+  "skipped": 2,
+  "errors": 0,
+  "command": [
+    "python",
+    "-m",
+    "pytest",
+    "-q",
+    "-ra"
+  ],
+  "recorded_at": "2026-11-09T23:54:10.179892+00:00",
+  "external_model_invoked": false,
+  "live_test_status": "NOT_TESTED_BY_THIS_COMMAND",
+  "independent_reviewer": "NONE"
+}

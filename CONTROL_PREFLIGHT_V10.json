@@ -1,0 +1,94 @@
+{
+  "status": "BLOCKED",
+  "production_approved": false,
+  "gate_s10": "NOT_PASSED",
+  "evaluated_at": "2026-11-10T01:57:59.647687+00:00",
+  "checks": {
+    "production_mode": {
+      "status": "PASS",
+      "value": "production"
+    },
+    "http_token": {
+      "status": "PASS",
+      "reason": "requires_a_unique_high_entropy_secret_min_32_chars"
+    },
+    "loopback_api": {
+      "status": "PASS",
+      "enforced_in": "olgm.api.serve",
+      "scope": "APP_LISTENER_ONLY; TLS reverse proxy not validated"
+    },
+    "external_tls_verified": {
+      "status": "NOT_TESTED",
+      "reason": "requires deployed endpoint and independently collected TLS scan"
+    },
+    "external_identity_verified": {
+      "status": "NOT_TESTED",
+      "reason": "requires authenticated Origin and RBAC integration"
+    },
+    "independent_threat_review": {
+      "status": "NOT_TESTED",
+      "reason": "independent security and PDPA review not provided"
+    },
+    "database_integrity": {
+      "status": "PASS",
+      "result": "ok"
+    },
+    "no_active_dev_grants": {
+      "status": "PASS",
+      "active_grants": 0,
+      "reason": "all local CLI grants must be removed before production"
+    },
+    "audit_chain": {
+      "status": "PASS",
+      "detail": "OK (0 records; 0 local anchors)",
+      "warning": "local hash-chain is not an immutable remote anchor"
+    },
+    "checkpoint_integrity": {
+      "status": "PASS",
+      "records": 0
+    },
+    "canonical_ledger": {
+      "status": "NOT_INITIALIZED",
+      "versions": 0,
+      "warning": "local hash ledger does not authenticate the canonical PDF"
+    },
+    "control_queue_reconciliation": {
+      "status": "NOT_TESTED",
+      "reason": "control_plane_not_initialized"
+    },
+    "computer_view_and_control_on_target": {
+      "status": "NOT_TESTED",
+      "reason": "requires target computer online, operator consent and verified screen/control evidence"
+    },
+    "plugin_space_live_connector": {
+      "status": "NOT_TESTED",
+      "reason": "requires independently authorized ChatGPT connector/Space bridge and access audit"
+    },
+    "backup_restore_drill": {
+      "status": "PASS",
+      "snapshot_sha256": "cbe9798fd7c0e5cff46c16d520b6e67ffc554bdddd20473d775ab4a78bc9e7d3",
+      "restored_sha256": "cbe9798fd7c0e5cff46c16d520b6e67ffc554bdddd20473d775ab4a78bc9e7d3",
+      "tables": 29,
+      "integrity": "ok",
+      "scope": "LOCAL_TEMPORARY_COPY_ONLY"
+    }
+  },
+  "blocking_checks": [
+    "external_tls_verified",
+    "external_identity_verified",
+    "independent_threat_review",
+    "canonical_ledger",
+    "control_queue_reconciliation",
+    "computer_view_and_control_on_target",
+    "plugin_space_live_connector"
+  ],
+  "required_manual_evidence": [
+    "out-of-band Origin identity and explicit release authorization",
+    "real deployed TLS/identity/RBAC boundary and vulnerability assessment",
+    "offsite immutable anchor, offsite backup, recovery time verification",
+    "independent S10-01..S10-20 evidence and reviewer signoff",
+    "Thai/model heldout evaluation and G06 blind novelty assessment",
+    "operational monitoring, rollback, incident and PDPA procedures"
+  ],
+  "disclosure": "This is an offline local preflight, not production certification"
+}

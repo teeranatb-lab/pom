@@ -1,0 +1,33 @@
+{
+  "artifact": "OLGM Ultimate Sovereign Control Plane v0.10.0",
+  "assurance": "LOCAL_CODE_TESTED_NOT_PRODUCTION_CERTIFIED",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "test_partitions": {
+    "non_g06": {
+      "command": "python -m pytest -q -ra --ignore=tests/test_g06_source_improve.py",
+      "passed": 197,
+      "skipped": 2,
+      "elapsed_sec": 11.77,
+      "log_path": "docs/TEST_RUN_NON_G06_V10.txt",
+      "log_sha256": "2737d60288433d5b082ef19707653745a3cf39393647c342de3be2f03ae4aa07"
+    },
+    "g06_nested": {
+      "command": "python -m pytest -q -ra tests/test_g06_source_improve.py",
+      "passed": 2,
+      "skipped": 0,
+      "elapsed_sec": 28.05,
+      "log_path": "docs/TEST_RUN_G06_V10.txt",
+      "log_sha256": "567b7313e80f22bf1654203ba16cfccb3656489db230ca3f659fe5cae033b35d"
+    }
+  },
+  "passed_total": 199,
+  "skipped_total": 2,
+  "failed_total": 0,
+  "live_desktop": "NOT_TESTED",
+  "live_space_and_plugin_bridge": "NOT_TESTED",
+  "s10_production_gate": "NOT_PASSED",
+  "note": "Tests run in two complementary commands because G-06 runs nested subprocess regressions. Local test keys and simulated connectors do not prove real Origin/device/Space access."
+}

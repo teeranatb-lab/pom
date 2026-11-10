@@ -1,0 +1,391 @@
+{
+  "gate": "S-10",
+  "overall": "NOT_PASSED",
+  "release_authorized": false,
+  "assurance_level": "LOCAL_MECHANISM_ONLY",
+  "evaluated_at": "2026-11-09T23:54:38.856483+00:00",
+  "trace_id": null,
+  "mechanical_checks": {
+    "audit_chain": {
+      "status": "NOT_TESTED",
+      "count": 0,
+      "detail": "OK (0 records; 0 local anchors)"
+    },
+    "checkpoint_integrity": {
+      "status": "NOT_TESTED",
+      "count": 0,
+      "signed_with_key": false
+    },
+    "canonical_ledger": {
+      "status": "NOT_INITIALIZED",
+      "versions": 0
+    },
+    "full_trace_recorded": {
+      "status": "NOT_TESTED",
+      "expected_stages": [
+        "F-00",
+        "F-01",
+        "F-02",
+        "F-03",
+        "F-04",
+        "X-00",
+        "OP-01",
+        "OP-02",
+        "OP-03",
+        "OP-04",
+        "OP-05",
+        "OP-06",
+        "OP-07",
+        "OP-08",
+        "OP-09",
+        "OP-10"
+      ],
+      "observed_stages": [],
+      "all_stages_in_exact_order": false,
+      "stage_statuses": {},
+      "all_stages_pass": false,
+      "disclosure": "Presence of a stage is not proof it passed"
+    },
+    "local_test_capture": {
+      "status": "LOCAL_TEST_LOG_AND_SOURCE_MATCH",
+      "passed": 156,
+      "skipped": 2,
+      "failed": 0,
+      "returncode": 0,
+      "hash_matches_current_sources": true,
+      "log_summary_matches_counts": true,
+      "disclosure": "pytest log is local verification, not independent attestation"
+    }
+  },
+  "evidence_attestations": {
+    "status": "NOT_SUBMITTED"
+  },
+  "gates": [
+    {
+      "gate_id": "S10-01",
+      "name": "Core 0 boundary / Origin declaration",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "F-00",
+        "F-01",
+        "F-02"
+      ],
+      "nonpass_checkpoints": [
+        "F-00",
+        "F-01",
+        "F-02"
+      ],
+      "independent_proof_required": "Origin declaration/identity independently authenticated",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-02",
+      "name": "Five Axes independently assessed",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "F-03"
+      ],
+      "nonpass_checkpoints": [
+        "F-03"
+      ],
+      "independent_proof_required": "Independent five-axis ethical audit",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-03",
+      "name": "Latest Intent locked, preserved and proven",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "F-04",
+        "OP-01",
+        "OP-05",
+        "OP-10"
+      ],
+      "nonpass_checkpoints": [
+        "F-04",
+        "OP-01",
+        "OP-05",
+        "OP-10"
+      ],
+      "independent_proof_required": "Authenticated identity and replay/delta cross-session evaluation",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-04",
+      "name": "Canonical Append+Inherit+Delta and external master verified",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-02"
+      ],
+      "nonpass_checkpoints": [
+        "OP-02"
+      ],
+      "independent_proof_required": "Original Canonical PDF independently hash-verified and authorized",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-05",
+      "name": "Meaning Space graph semantics evaluated out-of-sample",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "X-00",
+        "OP-04"
+      ],
+      "nonpass_checkpoints": [
+        "X-00",
+        "OP-04"
+      ],
+      "independent_proof_required": "Blind semantic benchmark with disclosed corpus and labels",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-06",
+      "name": "T06 live observer independently evaluated",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-04"
+      ],
+      "nonpass_checkpoints": [
+        "OP-04"
+      ],
+      "independent_proof_required": "Live model observations and blind evaluation on heldout paraphrases",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-07",
+      "name": "T19 V1-V7 / OTFA independently validated",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-03",
+        "OP-06"
+      ],
+      "nonpass_checkpoints": [
+        "OP-03",
+        "OP-06"
+      ],
+      "independent_proof_required": "Independent verifier/source credibility/entailment and temporal validation",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-08",
+      "name": "1+18 method selection / alternatives tested",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-04"
+      ],
+      "nonpass_checkpoints": [
+        "OP-04"
+      ],
+      "independent_proof_required": "Documented independent cognitive-method effectiveness evaluation",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-09",
+      "name": "Quality/Logical Gravity/unknown constraints validated",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-06"
+      ],
+      "nonpass_checkpoints": [
+        "OP-06"
+      ],
+      "independent_proof_required": "Independent measured gate calibration and policy decisions",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-10",
+      "name": "CANTI authorization and executed real-world effects",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-07",
+        "OP-08"
+      ],
+      "nonpass_checkpoints": [
+        "OP-07",
+        "OP-08"
+      ],
+      "independent_proof_required": "Authorized real-world action and externally observed effects",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-11",
+      "name": "Audit chain and external immutable anchoring",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-09"
+      ],
+      "nonpass_checkpoints": [
+        "OP-09"
+      ],
+      "independent_proof_required": "Independent immutable timestamp/anchor and tamper recovery exercise",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-12",
+      "name": "T17 changed weights and blinded heldout improvement",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-04"
+      ],
+      "nonpass_checkpoints": [
+        "OP-04"
+      ],
+      "independent_proof_required": "Actual training checkpoint + hashes + blind before/after benchmark",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-13",
+      "name": "Independent provenance and privacy/security assessment",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-09"
+      ],
+      "nonpass_checkpoints": [
+        "OP-09"
+      ],
+      "independent_proof_required": "Independent threat model, PDPA/privacy review and security penetration tests",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-14",
+      "name": "Cross-model, adversarial, drift and performance benchmarks",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-04",
+        "OP-10"
+      ],
+      "nonpass_checkpoints": [
+        "OP-04",
+        "OP-10"
+      ],
+      "independent_proof_required": "Cross-provider adversarial, regression and latency/cost measurements",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-15",
+      "name": "Origin release authorization and independent reviewer signoff",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-10"
+      ],
+      "nonpass_checkpoints": [
+        "OP-10"
+      ],
+      "independent_proof_required": "Explicit Origin signature plus independent reviewer acceptance",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-16",
+      "name": "Operational acceptance: security, rollback, monitors",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-07",
+        "OP-08",
+        "OP-09"
+      ],
+      "nonpass_checkpoints": [
+        "OP-07",
+        "OP-08",
+        "OP-09"
+      ],
+      "independent_proof_required": "Production-specific identity/TLS/monitoring/backup/restore/rollback tests",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-17",
+      "name": "G06 self-modification: sandbox, signed approval, rollback, and blind generalization",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-04",
+        "OP-06",
+        "OP-07",
+        "OP-09",
+        "OP-10"
+      ],
+      "nonpass_checkpoints": [
+        "OP-04",
+        "OP-06",
+        "OP-07",
+        "OP-09",
+        "OP-10"
+      ],
+      "independent_proof_required": "Independent G06 novel capability test, source mutation authorization, adversarial benchmark and rollback evidence",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-18",
+      "name": "Thai understanding/retrieval learning: blind linguistic and safety evaluation",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "X-00",
+        "OP-03",
+        "OP-04",
+        "OP-09"
+      ],
+      "nonpass_checkpoints": [
+        "X-00",
+        "OP-03",
+        "OP-04",
+        "OP-09"
+      ],
+      "independent_proof_required": "Independent heldout Thai corpus including ambiguity, OOV, paraphrases, spelling and factuality",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-19",
+      "name": "Thai code generation: functionality, security and provenance conformance",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "OP-04",
+        "OP-06",
+        "OP-07",
+        "OP-09"
+      ],
+      "nonpass_checkpoints": [
+        "OP-04",
+        "OP-06",
+        "OP-07",
+        "OP-09"
+      ],
+      "independent_proof_required": "Independent novel-code benchmark, property tests, code scan, security sandbox and Origin source-use permission",
+      "artifact_signature_is_not_claim_validation": true
+    },
+    {
+      "gate_id": "S10-20",
+      "name": "Intellectual sovereignty: Origin authorization, no exfiltration, lineage and independent review",
+      "status": "BLOCKED",
+      "checkpoint_refs": [
+        "F-00",
+        "F-01",
+        "F-02",
+        "OP-02",
+        "OP-09",
+        "OP-10"
+      ],
+      "nonpass_checkpoints": [
+        "F-00",
+        "F-01",
+        "F-02",
+        "OP-02",
+        "OP-09",
+        "OP-10"
+      ],
+      "independent_proof_required": "Out-of-band Origin identity proof, consent/licensing audit, no-leak review and independent reviewer approval",
+      "artifact_signature_is_not_claim_validation": true
+    }
+  ],
+  "counts": {
+    "required": 20,
+    "passed": 0,
+    "blocked": 20,
+    "failed": 0
+  },
+  "next_action": "Collect independent, source-bound proof for every gate; do not self-declare PASS.",
+  "limitations": [
+    "T06_LIVE_NOT_AUTOMATICALLY_PROVEN",
+    "T17_WEIGHT_LEARNING_NOT_AUTOMATICALLY_PROVEN",
+    "INDEPENDENT_SOURCE_TRUTH_NOT_AUTOMATICALLY_PROVEN",
+    "ORIGIN_IDENTITY_NOT_AUTOMATICALLY_AUTHENTICATED",
+    "EXTERNAL_ACTION_EFFECT_NOT_AUTOMATICALLY_VERIFIED"
+  ]
+}

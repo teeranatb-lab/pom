@@ -1,0 +1,336 @@
+{
+  "revision": "S10-v0.9",
+  "scope": "production acceptance evidence inventory",
+  "source": "Existing OLGM v0.8 release gates; no canonical modification",
+  "release_status": "NOT_PASSED",
+  "required": 20,
+  "passed": 0,
+  "gates": [
+    {
+      "gate_id": "S10-01",
+      "description": "Core 0 boundary / Origin declaration",
+      "checkpoint_refs": [
+        "F-00",
+        "F-01",
+        "F-02"
+      ],
+      "independent_evidence_needed": "Origin identity attested out of band; read-only Core 0 violation test",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-02",
+      "description": "Five Axes independently assessed",
+      "checkpoint_refs": [
+        "F-03"
+      ],
+      "independent_evidence_needed": "independent impact review on five axes and risks",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-03",
+      "description": "Latest Intent locked, preserved and proven",
+      "checkpoint_refs": [
+        "F-04",
+        "OP-01",
+        "OP-05",
+        "OP-10"
+      ],
+      "independent_evidence_needed": "latest-intent replay tests with changed tasks and authentic actor",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-04",
+      "description": "Canonical Append+Inherit+Delta and external master verified",
+      "checkpoint_refs": [
+        "OP-02"
+      ],
+      "independent_evidence_needed": "external immutable master PDF digest, explicit owner-authorized version",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-05",
+      "description": "Meaning Space graph semantics evaluated out-of-sample",
+      "checkpoint_refs": [
+        "X-00",
+        "OP-04"
+      ],
+      "independent_evidence_needed": "out-of-sample meaning graph relevance set and drift metrics",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-06",
+      "description": "T06 live observer independently evaluated",
+      "checkpoint_refs": [
+        "OP-04"
+      ],
+      "independent_evidence_needed": "live real model replay run T06 with input/output, blinded independent labels",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-07",
+      "description": "T19 V1-V7 / OTFA independently validated",
+      "checkpoint_refs": [
+        "OP-03",
+        "OP-06"
+      ],
+      "independent_evidence_needed": "V1-V7 evidence linking source credibility, contradiction and temporality review",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-08",
+      "description": "1+18 method selection / alternatives tested",
+      "checkpoint_refs": [
+        "OP-04"
+      ],
+      "independent_evidence_needed": "cognitive strategy vs baselines, selected/rejected methods and task performance",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-09",
+      "description": "Quality/Logical Gravity/unknown constraints validated",
+      "checkpoint_refs": [
+        "OP-06"
+      ],
+      "independent_evidence_needed": "calibration, unknown refusal and wrong-path tests",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-10",
+      "description": "CANTI authorization and executed real-world effects",
+      "checkpoint_refs": [
+        "OP-07",
+        "OP-08"
+      ],
+      "independent_evidence_needed": "per-action signed authorization plus external effect observation",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-11",
+      "description": "Audit chain and external immutable anchoring",
+      "checkpoint_refs": [
+        "OP-09"
+      ],
+      "independent_evidence_needed": "off-machine immutable anchor, independent timestamp, verified deletion/tamper drill",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-12",
+      "description": "T17 changed weights and blinded heldout improvement",
+      "checkpoint_refs": [
+        "OP-04"
+      ],
+      "independent_evidence_needed": "actual adapter before/after model hashes, blinded holdout results without leakage",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-13",
+      "description": "Independent provenance and privacy/security assessment",
+      "checkpoint_refs": [
+        "OP-09"
+      ],
+      "independent_evidence_needed": "independent threat model, penetration review and PDPA assessment",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-14",
+      "description": "Cross-model, adversarial, drift and performance benchmarks",
+      "checkpoint_refs": [
+        "OP-04",
+        "OP-10"
+      ],
+      "independent_evidence_needed": "cross-provider, adversarial and drift monitoring performance runs",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-15",
+      "description": "Origin release authorization and independent reviewer signoff",
+      "checkpoint_refs": [
+        "OP-10"
+      ],
+      "independent_evidence_needed": "explicit real Origin release signature AND independent reviewer signature",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-16",
+      "description": "Operational acceptance: security, rollback, monitors",
+      "checkpoint_refs": [
+        "OP-07",
+        "OP-08",
+        "OP-09"
+      ],
+      "independent_evidence_needed": "deployed TLS and operator auth, backup retention, recovery RTO/RPO, monitoring, incident and rollback drill",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-17",
+      "description": "G06 self-modification: sandbox, signed approval, rollback, and blind generalization",
+      "checkpoint_refs": [
+        "OP-04",
+        "OP-06",
+        "OP-07",
+        "OP-09",
+        "OP-10"
+      ],
+      "independent_evidence_needed": "signed patch approval, code provenance, isolated sandbox, novel blind tasks and rollback",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-18",
+      "description": "Thai understanding/retrieval learning: blind linguistic and safety evaluation",
+      "checkpoint_refs": [
+        "X-00",
+        "OP-03",
+        "OP-04",
+        "OP-09"
+      ],
+      "independent_evidence_needed": "blind Thai task evaluations covering spelling ambiguity, dialect, OOV and safety",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-19",
+      "description": "Thai code generation: functionality, security and provenance conformance",
+      "checkpoint_refs": [
+        "OP-04",
+        "OP-06",
+        "OP-07",
+        "OP-09"
+      ],
+      "independent_evidence_needed": "generated code heldout functional tests, static scans and restricted process isolation",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    },
+    {
+      "gate_id": "S10-20",
+      "description": "Intellectual sovereignty: Origin authorization, no exfiltration, lineage and independent review",
+      "checkpoint_refs": [
+        "F-00",
+        "F-01",
+        "F-02",
+        "OP-02",
+        "OP-09",
+        "OP-10"
+      ],
+      "independent_evidence_needed": "independent proof of intellectual sovereignty, dataset rights, no unauthorized exfiltration, Origin consent",
+      "state": "PENDING_EXTERNAL_EVIDENCE",
+      "evidence_path": null,
+      "external_reviewer": null,
+      "origin_authorization": null,
+      "source_hash": null,
+      "run_id": null,
+      "time": null
+    }
+  ]
+}

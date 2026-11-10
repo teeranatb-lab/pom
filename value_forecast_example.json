@@ -1,0 +1,15 @@
+{
+  "subject_id":"synthetic-external-user-001",
+  "answer_hash":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "public_safe_summary":"ตัวอย่างคำตอบจำลองสำหรับวิเคราะห์ต้นทุนโลจิสติกส์",
+  "estimate_inputs": {
+    "incremental_net_profit_thb": 1500000,
+    "verified_cost_savings_thb": 200000,
+    "implementation_cost_thb": 100000,
+    "ongoing_cost_thb": 100000,
+    "success_probability": 0.8
+  },
+  "evidence_refs":["forecast-doc-001"],
+  "consent_share_identity":false,
+  "consent_user_email":false
+}

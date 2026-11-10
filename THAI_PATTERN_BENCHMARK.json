@@ -1,0 +1,305 @@
+{
+  "evaluation_type": "CURATED_DEVELOPER_REGRESSION_NOT_BLIND",
+  "cases": 42,
+  "top1_correct": 42,
+  "top3_correct": 42,
+  "top1_rate": 1.0,
+  "top3_rate": 1.0,
+  "details": [
+    {
+      "prompt": "สวัสดีค่ะ",
+      "expected": "greet",
+      "predicted": "greet",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ขอบคุณมากครับ",
+      "expected": "thanks",
+      "predicted": "thanks",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ช่วยอธิบายเพิ่มอีกหน่อย",
+      "expected": "clarify",
+      "predicted": "clarify",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ย่อความเนื้อหานี้",
+      "expected": "summarize",
+      "predicted": "summarize",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ตรวจคำผิดในประโยค",
+      "expected": "spellcheck",
+      "predicted": "spellcheck",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เรียนรู้ภาษาไทยด้วยตัวอย่าง",
+      "expected": "thai_learn",
+      "predicted": "thai_learn",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ความหมายของคำว่าธารา",
+      "expected": "definition",
+      "predicted": "definition",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "คำไวพจน์ของคำนี้",
+      "expected": "synonyms",
+      "predicted": "synonyms",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ทำไมจึงเกิดผลนี้",
+      "expected": "cause",
+      "predicted": "cause",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ขอวิเคราะห์ผลกระทบ",
+      "expected": "effect",
+      "predicted": "effect",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เปรียบเทียบทางเลือก",
+      "expected": "compare",
+      "predicted": "compare",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "จำแนกประเภทของวัสดุ",
+      "expected": "classify",
+      "predicted": "classify",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ตรวจสอบหลักฐาน",
+      "expected": "verify",
+      "predicted": "verify",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ช่วยวางแผนระบบ",
+      "expected": "plan",
+      "predicted": "plan",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เพิ่มประสิทธิภาพฐานข้อมูล",
+      "expected": "optimize",
+      "predicted": "optimize",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "คำนวณ 5 บวก 4",
+      "expected": "calculate",
+      "predicted": "calculate",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "หาค่าเฉลี่ย",
+      "expected": "statistics",
+      "predicted": "statistics",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "แปลงหน่วยเมตรเป็นเซนติเมตร",
+      "expected": "unit_convert",
+      "predicted": "unit_convert",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เขียนโค้ดภาษา Python",
+      "expected": "code_write",
+      "predicted": "code_write",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "แก้บั๊กในโปรแกรม",
+      "expected": "code_fix",
+      "predicted": "code_fix",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ทดสอบโค้ดด้วย pytest",
+      "expected": "code_test",
+      "predicted": "code_test",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ออกแบบ API",
+      "expected": "api_design",
+      "predicted": "api_design",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "อธิปไตยทางปัญญา",
+      "expected": "olgm_sovereign",
+      "predicted": "olgm_sovereign",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ตรวจสอบแก่นความหมาย",
+      "expected": "olgm_meaning",
+      "predicted": "olgm_meaning",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "Core 0 เป็นอะไร",
+      "expected": "olgm_core0",
+      "predicted": "olgm_core0",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ต้องล็อกเจตนา",
+      "expected": "olgm_intent_lock",
+      "predicted": "olgm_intent_lock",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ใช้ CANTI ควบคุมคำสั่ง",
+      "expected": "olgm_canti",
+      "predicted": "olgm_canti",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เหตุผลความจำเป็นจัดซื้อ",
+      "expected": "procurement_need",
+      "predicted": "procurement_need",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ทะเบียนครุภัณฑ์",
+      "expected": "procurement_assets",
+      "predicted": "procurement_assets",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "รับเข้าคลังวัสดุ",
+      "expected": "procurement_inventory",
+      "predicted": "procurement_inventory",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ตรวจรับพัสดุ",
+      "expected": "procurement_inspection",
+      "predicted": "procurement_inspection",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "น้ำมันเชื้อเพลิง fleet card",
+      "expected": "procurement_fuel",
+      "predicted": "procurement_fuel",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เปลี่ยน CRS เป็น WGS84",
+      "expected": "gis_crs",
+      "predicted": "gis_crs",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ส่งออกเป็น DXF",
+      "expected": "gis_export",
+      "predicted": "gis_export",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "คำนวณระยะทาง",
+      "expected": "gis_distance",
+      "predicted": "gis_distance",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ข้อมูลส่วนบุคคล PDPA",
+      "expected": "privacy",
+      "predicted": "privacy",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ประเมินความเสี่ยง",
+      "expected": "risk",
+      "predicted": "risk",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "สร้าง PDF",
+      "expected": "documents_pdf",
+      "predicted": "documents_pdf",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "เฝ้าระวังสถานะระบบ",
+      "expected": "monitoring",
+      "predicted": "monitoring",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "วัด latency",
+      "expected": "performance",
+      "predicted": "performance",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "คลื่นสายรุ้งนอกความรู้",
+      "expected": "UNKNOWN",
+      "predicted": "UNKNOWN",
+      "top1_correct": true,
+      "top3_correct": true
+    },
+    {
+      "prompt": "ห้ามเขียนโค้ด",
+      "expected": "UNKNOWN",
+      "predicted": "UNKNOWN",
+      "top1_correct": true,
+      "top3_correct": true
+    }
+  ],
+  "claim": "This metric is only for manually selected phrases, not general Thai understanding."
+}
